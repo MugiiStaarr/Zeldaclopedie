@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Legend of Zelda : articles, personnages, théories et plus encore !">
+    <title> Zeldaclopédie - TP2</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="../assets/js/script.js"></script>
+    <link rel="icon" href="../images/zeldaicone.jpg">
+</head>
+<body class="fade-in">
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../assets/images/zeldaicone.jpg" alt="Logo Zelda" class="logo"></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#inscription">Inscription</a></li>
+                <li><a href="#tableau">Tableau</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#personnages">Personnages</a></li>
+                <li><a href="#videos">Vidéos</a></li>
+                <li><a href="#galerie">Galerie d'images</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue Dans La Zeldaclopédie</h1>
+        <p>TP2 - Tania Haouit</p>
+        <p>582-1W1 – Mise en page Web</p>
+        <p>Techniques d’intégration multimédia, Collège de Maisonneuve, automne 2024</p>
+        <p><a href="https://github.com/MugiiStaarr/Zeldaclopedia---TP2.git" target="">Voir la version en ligne</a></p>
+          
+    </section>
+    <script src="../assets/js/script.js"></script>
+
+    <section id="inscription">
+        <h2>Rejoignez-nous dans une aventure légendaire !</h2>
+        <p>Vous êtes un courageux aventurier, un véritable héros de Hyrule ? Vous êtes au bon endroit !
+            En vous inscrivant ici, vous serez parmis les premiers informés de l'arrivé d'un tout nouvel onglet "Communauté" qui ouvrira bientôt ses portes ! Rejoignez une communautée de fans prêts à partager leurs théories, astuces, fanarts et bien plus encore. 
+            Vous aurez également la possibilité d'écrire vos propres articles, de dévoiler vos stratégies, et de partager vos découvertes sur l'univers de The Legend of Zelda.
+            Que la Triforce guide vos pas dans cette aventure épique ! ✨</p>
+        <form action="#" method="post">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+    
+            <label for="confirm-password">Confirmer le mot de passe :</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+    
+            <label for="newsletter">S'abonner à l'info-lettre :</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <fieldset>
+                <legend>Genre :</legend>
+                <label for="homme">
+                    <input type="radio" id="homme" name="genre" value="Homme" required> Homme
+                </label>
+                <label for="femme">
+                    <input type="radio" id="femme" name="genre" value="Femme" required> Femme
+                </label>
+                <label for="autre">
+                    <input type="radio" id="autre" name="genre" value="Autre" required> Autre
+                </label>
+            </fieldset>
+    
+            <input type="submit" value="S'inscrire">
+            <input type="reset" value="Réinitialiser">
+            
+        </form>
+        
+    </section>
+
+    <section id="tableau">
+        <h1>La Naissance D'un Univers Légendaire</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom du créateur</th>
+                    <th>Rôle dans la saga</th>
+                    <th>Premier jeu Zelda</th>
+                    <th>Contributions principales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shigeru Miyamoto</td>
+                    <td>Créateur et Producteur</td>
+                    <td>The Legend of Zelda (1986)</td>
+                    <td>Création de la série Zelda, direction artistique et gameplay innovant</td>
+                </tr>
+                <tr>
+                    <td>Eiji Aonuma</td>
+                    <td>Producteur, Réalisateur</td>
+                    <td>The Legend of Zelda: Ocarina of Time (1998)</td>
+                    <td>Direction des jeux *Zelda* à partir de *Ocarina of Time*, création de nouvelles mécaniques de gameplay</td>
+                </tr>
+                <tr>
+                    <td>Koji Kondo</td>
+                    <td>Compositeur</td>
+                    <td>The Legend of Zelda (1986)</td>
+                    <td>Création de la musique iconique de la série, compositions mémorables telles que le thème principal de Zelda</td>
+                </tr>
+                <tr>
+                    <td>Takashi Tezuka</td>
+                    <td>Producteur, Designer</td>
+                    <td>The Legend of Zelda: A Link to the Past (1991)</td>
+                    <td>Conception des premiers jeux *Zelda*, collaboration à la création du gameplay et de l'histoire</td>
+                </tr>
+                <tr>
+                    <td>Shiro Morita</td>
+                    <td>Artiste</td>
+                    <td>The Legend of Zelda: Link's Awakening (1993)</td>
+                    <td>Direction artistique et conception des visuels pour plusieurs jeux *Zelda*</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Les créateurs clés de The Legend of Zelda</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="articles">
+        <h2>Articles Sur Les Jeux De La Saga Zelda</h2>
+        <div class="games-grid">
+            <article>
+                <img src="images/zelda1.jpg" alt="The Legend of Zelda">
+                <h3>The Legend of Zelda (1986)</h3>
+                <p><strong>Synopsis : </strong> Dans ce tout premier jeu de la série "The Legend of Zelda"Link doit sauver la princesse Zelda, 
+                    enlevée par le maléfique Ganon. Avant sa capture, Zelda a brisé la Triforce de la Sagesse, ce qui a permis à Ganon de s'emparer 
+                    de la Triforce de la Force. Le sorcier maléfique cherche maintenant à réunir les trois pièces de la Triforce, la Triforce de la Force,
+                    la Triforce de la Sagesse et la Triforce du Courage pour conquérir le royaume d'Hyrule. Pour empêcher Ganon de prendre le contrôle d'Hyrule, 
+                    Link doit collecter les fragments de la Triforce de la Sagesse cachés dans les huit donjons du royaume. Chaque donjon est rempli de monstres, 
+                    d'énigmes et de trésors qui aideront Link dans sa quête. Une fois tous les fragments réunis, Link doit se rendre dans le donjon de Ganon pour affronter 
+                    le maléfique sorcier. En obtenant la Triforce du Courage, Link réussit à sauver Zelda et à restaurer la paix dans Hyrule.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNES%2FThe-Legend-of-Zelda-796345.html&psig=AOvVaw1KByB4HSGSLHzxEQJMGdsP&ust=1733881353751000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCnn4WLnIoDFQAAAAAdAAAAABAK" target="">The Legend of Zelda</a></p>  
+            </article>
+            <article>
+                <img src="images/zelda2.jpg" alt="Zelda II: The Adventure of Link">
+                <h3>Zelda II: The Adventure of Link (1987)</h3>
+                <p><strong>Synopsis : </strong> Link doit sauver la princesse Zelda, plongée dans un profond sommeil à cause d'un sort maléfique. Pour briser ce sort, 
+                    Link doit trouver et placer la Triforce du Courage dans le Grand Palais. Cependant, cette quête est semée d'embûches, car Link doit parcourir Hyrule, 
+                    collecter des gemmes magiques et améliorer ses capacités. Au cours de son voyage, Link rencontre des ennemis puissants, comme les Gorons, les ReDead, 
+                    et même Dark Link. Il doit résoudre des énigmes et explorer des donjons pour obtenir de nouvelles magies et renforcer ses compétences. En outre, Link 
+                    doit obtenir des clés pour accéder à de nouvelles zones et améliorer ses pouvoirs. Après de nombreuses épreuves, Link se rend au Grand Palais pour affronter 
+                    l'ennemi final et sauver la princesse Zelda.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcollider.com%2Fzelda-2-the-adventure-of-link-underrated%2F&psig=AOvVaw2dCcPcWIIGk72g3vR3LFHE&ust=1733881380359000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCjvZKLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda3.jpg" alt="The Legend of Zelda: A Link to the Past">
+                <h3>The Legend of Zelda: A Link to the Past (1991)</h3>
+                <p><strong>Synopsis : </strong> Link doit sauver la princesse Zelda, emprisonnée par le méchant sorcier Agahnim, qui cherche à ouvrir la porte du monde des ténèbres et à conquérir Hyrule. 
+                    Pour l'arrêter, Link doit traverser les quatre donjons du monde de la lumière et des donjons du monde des ténèbres pour récupérer les cristaux. En chemin, Link explore des temples, 
+                    rencontre de nouveaux alliés comme le Vieil Homme et l'Ancien, et utilise de puissants objets magiques tels que le boomerang, l'arc, ou encore le flacon pour soigner ses blessures. 
+                    Grâce aux pouvoirs obtenus, Link se rend au château de Ganon pour affronter Ganon, l'ennemi final, et restaurer la paix dans Hyrule.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgbatemp.net%2Fthreads%2Frelease-zelda3-vita-v-1-0-legend-of-zelda-a-link-to-the-past-enhanced-recreation-port-by-rinnegatamante.620249%2F&psig=AOvVaw09ZImP8XHBd38JaGga04MJ&ust=1733881406227000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMib86GLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+                <article>
+                    <img src="images/zelda4.jpg" alt="The Legend of Zelda: Link's Awakening">
+                    <h3>The Legend of Zelda: Link's Awakening (1993)</h3>
+                    <p><strong>Synopsis :</strong> Link se retrouve sur l'île de Cocolint, après un naufrage. Là, il découvre que la déesse Wind Fish est endormie dans l'œuf géant sur le sommet du mont Cocolint. 
+                        Afin de réveiller la déesse et de quitter l'île, Link doit collecter les instruments des sirènes, cachés dans différents donjons. Au fil de son aventure, Link rencontre de nombreux personnages, 
+                        comme le vieil homme de la maison de la sorcière, et affronte des ennemis de plus en plus puissants. Chaque instrument des sirènes récupéré permet à Link de progresser et de se rapprocher de l'ultime objectif. 
+                        À la fin de son périple, Link doit faire face à la réalité de l'île de Cocolint, découvrir le secret de la déesse et du Wind Fish, et prendre une décision cruciale concernant le destin de l'île.</p>
+                    <p class="image-source">Source : <a href="https://www.nintendo.com/en-gb/Games/Game-Boy-Color/The-Legend-of-Zelda-Link-s-Awakening-DX--275946.html" target="">The Legend of Zelda</a></p>
+                </article>                
+            <article>
+                <img src="images/zelda5.jpg" alt="The Legend of Zelda: Ocarina of Time">
+                <h3>The Legend of Zelda: Ocarina of Time (1998)</h3>
+                <p><strong>Synopsis : </strong> Link, un jeune garçon de la forêt Kokiri, est choisi par l’Arbre Mojo pour sauver le royaume d’Hyrule d’un mal ancien. Accompagné de sa fée guide Navi,
+                    il part en quête des Pierres Ancestrales requises pour accéder au Temple du Temps. Après avoir retiré l’Épée de Légende, Link se retrouve projeté sept ans dans le futur, 
+                    où le sorcier maléfique Ganondorf a pris le contrôle du royaume.Devenu adulte, Link doit réveiller les Six Sages afin de sceller Ganondorf et empêcher la destruction d’Hyrule. 
+                    Avec l’aide de Sheik, il traverse de nombreux donjons, résout des énigmes et combat des créatures pour enfin affronter Ganondorf dans une bataille épique. Grâce à son courage, 
+                    Link parvient à restaurer la paix dans le royaume et empêcher la menace de Ganondorf.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNintendo-64%2FThe-Legend-of-Zelda-Ocarina-of-Time-269536.html&psig=AOvVaw2M773Cy3E4CwpjOTAwcdyR&ust=1733881467733000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiix7uLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda6.jpg" alt="The Legend of Zelda: Majora's Mask ">
+                <h3>The Legend of Zelda: Majora's Mask (2000)</h3>
+                <p><strong>Synopsis : </strong> Link, accompagné de sa jument Epona, part à la recherche de sa fée guide Navi, qui a disparu après les événements de Ocarina of Time.
+                    Sur son chemin, il croise un mystérieux personnage, Skull Kid, qui porte le masque maléfique de Majora et est accompagné de deux fées, dont Tatl, 
+                    qui deviendra plus tard la partenaire de Link. Ce skull kid parvient à lui voler Epona et son ocarina du temps. Lorsque Link tente de récupérer ce qui lui a été volé,
+                    Skull Kid utilise les pouvoirs du masque pour transformer Link en enfant Mojo.Désormais dans cette nouvelle forme (temporaire), Link doit naviguer à travers Termina,
+                    un monde étrange où la Lune menace de s’écraser dans trois jours. Avec l’aide de Tatl, Link utilise l'Ocarina du Temps pour manipuler le temps et revivre sans cesse 
+                    les trois derniers jours.  Il devra résoudre les problèmes des habitants de Termina, récupérer des masques magiques pour acquérir de nouveaux pouvoirs et empêcher la catastrophe.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fzelda%2Fcomments%2F107h61l%2Fmm_what_do_you_consider_are_the_serious_pros_and%2F&psig=AOvVaw2k3NryzDOqmXxxcTICFBAT&ust=1733881484221000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC_8cOLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda7.jpg" alt="The Legend of Zelda: Oracle of Seasons">
+                <h3>The Legend of Zelda: Oracle of Seasons (2001)</h3>
+                <p><strong>Synopsis : </strong> Link est transporté dans le royaume de Holodrum, où une sorcière nommée Onox vole le Sceptre des Saisons, perturbant l’équilibre de la nature. 
+                    La princesse Din est enlevée, et c’est à Link de la sauver. En utilisant la Roue du Temps, Link voyage à travers les saisons, permettant à la terre de passer du printemps à l’hiver 
+                    et inversement pour résoudre des énigmes et combattre des ennemis. Il doit également récupérer les pierres élémentaires et affronter Onox dans un combat final pour restaurer l’ordre naturel et sauver Din.
+                    Avec l’aide de la Déesse des Saisons, Link parvient à rétablir l’équilibre des saisons et à sauver Holodrum de la destruction.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FGame-Boy-Color%2FThe-Legend-of-Zelda-Oracle-of-Seasons-266263.html&psig=AOvVaw3X_US5xYYVW69_mpRs0vGD&ust=1733881510152000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjU0NCLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda8.jpg" alt="The Legend of Zelda: Oracle of Ages">
+                <h3>The Legend of Zelda: Oracle of Ages (2001)</h3>
+                <p><strong>Synopsis : </strong> Dans The Legend of Zelda: Oracle of Ages, Link se rend dans le royaume de Labrynna, où il découvre que Nayru, la déesse de la sagesse, a été enlevée par Veran, 
+                    la sorcière des ténèbres. Veran prend possession du corps de Nayru et manipule le temps pour semer le chaos à travers Labrynna. Pour sauver Nayru et restaurer l'ordre, Link doit 
+                    collecter les médaillons du temps dans divers donjons et voyager entre le passé et le présent grâce à l'harpe du temps. Avec l'aide de la fée de l'ombre Ralph et de l'esprit du temps, 
+                    Link doit résoudre des énigmes et affronter Veran pour libérer la déesse et ramener la paix dans le royaume. Le destin de Labrynna dépend de la maîtrise du temps et des pouvoirs de l'harpe du temps.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ign.com%2Farticles%2F2001%2F05%2F14%2Flegend-of-zelda-oracle-of-ages&psig=AOvVaw1QOZdFqsOZ5TGsmO6iPHjE&ust=1733881534383000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCz9tuLnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda9.jpg" alt="The Legend of Zelda: Four Swords">
+                <h3>The Legend of Zelda: Four Swords (2002)</h3>
+                <p><strong>Synopsis : </strong> Link doit affronter un mal ancien lorsqu’un démon nommé Vaati libère une puissance sombre en se servant de la "Four Sword". Pour sauver le royaume, Link se divise 
+                    en quatre versions de lui-même grâce à la magie de la Fourchette, formant ainsi une équipe de quatre héros. Chaque Link doit travailler en coopération pour résoudre des énigmes, 
+                    vaincre des ennemis et restaurer l’ordre. En utilisant les pouvoirs uniques de chaque Link, ils affrontent Vaati et rétablissent la paix dans le royaume.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FNews%2F2011%2FDownload-The-Legend-of-Zelda-Four-Swords-Anniversary-Edition-for-free-now--252878.html&psig=AOvVaw1B54TTw5BS_fsGKDIcCEA9&ust=1733881555473000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjO2eaLnIoDFQAAAAAdAAAAABAu" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda10.jpg" alt="The Legend of Zelda: The Wind Waker">
+                <h3>The Legend of Zelda: The Wind Waker (2003)</h3>
+                <p><strong>Synopsis : </strong> Link, un jeune garçon vivant sur une île lointaine, se lance dans une aventure épique pour sauver sa sœur Aryll, enlevée par un oiseau géant. 
+                    Il découvre que l’île où il vit fait partie d’un vaste archipel, et qu’un mal ancien, Ganon, est sur le point de revenir pour plonger le monde dans les ténèbres.
+                  Avec l’aide de la Barque du Vent, Link navigue à travers l’océan pour retrouver les Trois Pierres Spirituelles, affronter des ennemis et découvrir la vérité sur 
+                  l’ancienne Terre d'Hyrule, engloutie sous les eaux. Link devra réveiller le pouvoir de l’Épée de Légende et vaincre Ganon pour restaurer la paix dans ce monde aquatique.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F37510%2Fgrids&psig=AOvVaw0BAwoNu3p3UPQ648obm-tI&ust=1733881696400000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiPiqqMnIoDFQAAAAAdAAAAABA1" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda11.jpg" alt="The Legend of Zelda: The Minish Cap">
+                <h3>The Legend of Zelda: The Minish Cap (2004)</h3>
+                <p><strong>Synopsis : </strong> Link, un jeune garçon de Hyrule, reçoit un chapeau magique nommé Ezlo, qui se révèle être un ancien sage sous forme de chapeau, après que le 
+                    sorcier maléfique Vaati ait transformé la princesse Zelda en pierre. Vaati cherche à libérer un ancien pouvoir caché dans la Tour des Cieux, et pour l'arrêter, 
+                    Link doit voyager à travers Hyrule, rencontrer le peuple magique des Minish et rétrécir à leur taille grâce au pouvoir d'Ezlo.  Au cours de son aventure, 
+                    Link doit retrouver les Quatre Cristaux et restaurer l'Épée de Légende. Avec l'aide de Ezlo, Link résout des énigmes, combat des ennemis et explore des donjons 
+                    pour empêcher Vaati de plonger le royaume dans l'obscurité et sauver Zelda.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FGame-Boy-Advance%2FThe-Legend-of-Zelda-The-Minish-Cap-267486.html&psig=AOvVaw3CG1FPi7O1YCPpSqtkHGUr&ust=1733882013822000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDc8b-NnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda12.jpg" alt="The Legend of Zelda: Four Swords Adventures">
+                <h3>The Legend of Zelda: Four Swords Adventures (2005)</h3>
+                <p><strong>Synopsis : </strong> Link est convoqué par la princesse Zelda pour sauver Hyrule d'une nouvelle menace. Après que le maléfique Vaati ait libéré son alter ego, Dark Link,
+                    et qu'ils aient volé l'Épée des Quatre, une épée magique capable de diviser Link en plusieurs copies, Link doit s'unir avec ses doubles pour stopper Vaati et ses sbires.
+                    Dans cette aventure, Link se divise en quatre versions distinctes grâce à l'Épée des Quatre, permettant à chaque Link d'explorer différentes zones de Hyrule, de résoudre des énigmes
+                   en coopération et de combattre des ennemis ensemble. Les quatre Link doivent se rassembler pour vaincre Vaati, stopper ses plans maléfiques et restaurer la paix dans le royaume.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNintendo-GameCube%2FThe-Legend-of-Zelda-Four-Swords-Adventures-269028.html&psig=AOvVaw2qKaYonLIjmsAey7xqw3KU&ust=1733882031994000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjhvciNnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda13.jpg" alt="The Legend of Zelda: Twilight Princess">
+                <h3>The Legend of Zelda: Twilight Princess (2006)</h3>
+                    <p><strong>Synopsis : </strong> Link, un jeune fermier du village de Toal, est entraîné dans une quête épique lorsqu’un pouvoir maléfique plonge le royaume d’Hyrule dans un crépuscule permanent. 
+                        Lorsqu’il est capturé par les créatures des ténèbres, Link est transformé en loup et rencontre Midona, une mystérieuse créature venant du royaume du Crépuscule. Avec l’aide de Midona, 
+                        Link doit restaurer la lumière en retrouvant les fragments de lumière dispersés dans les provinces d’Hyrule et en affrontant les créatures de l’ombre. Armé de l’Épée de Légende et équipé 
+                        d’artefacts puissants comme l’arc du héros, Link explore des temples et résout des énigmes pour défaire les forces du mal. Finalement, il affronte le roi du Crépuscule, Xanto, avant de se mesurer à Ganondorf, 
+                        qui cherche à dominer Hyrule grâce à la Triforce du Pouvoir. Avec Midona à ses côtés, Link rétablit la paix entre le royaume d’Hyrule et celui du Crépuscule.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FWii-U-games%2FThe-Legend-of-Zelda-Twilight-Princess-HD-1082222.html&psig=AOvVaw0grYyhsP2jTKpICz0Mg0xA&ust=1733882072429000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCJ8tuNnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda14.jpg" alt="The Legend of Zelda: Phantom Hourglass">
+                <h3>The Legend of Zelda: Phantom Hourglass (2007)</h3>
+                <p><strong>Synopsis : </strong> Link et Tetra, accompagnés de leur équipage de pirates, explorent une mer mystérieuse lorsqu’ils découvrent un navire fantôme. Lorsqu’ils tentent de l’aborder, Tetra est capturée, 
+                    et Link tombe à la mer. Il se réveille sur une île inconnue, où il rencontre Ciela, une fée amnésique, et un marin nommé Linebeck. Pour sauver Tetra, Link doit explorer l’Océan du Roi à bord du navire de Linebeck, 
+                    naviguant entre diverses îles pour récupérer les sables du temps, une substance magique permettant de repousser le maléfice du Temple du Roi des Mers. Ce temple abrite des énigmes complexes et est protégé par des spectres, 
+                    des ennemis invincibles. Armé de l’épée spectrale, Link affronte le maléfique Bellum, une entité responsable de la disparition des habitants du royaume. Avec l’aide de Ciela et du Phantom Hourglass, il sauve Tetra, libère l’océan 
+                    de la menace de Bellum et ramène la paix dans le monde.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNintendo-DS%2FThe-Legend-of-Zelda-Phantom-Hourglass-273289.html&psig=AOvVaw3TmvypeyT8MJNDpy6-VISd&ust=1733882141183000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCZw_yNnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda15.jpg" alt="The Legend of Zelda: Spirits Tracks">
+                <h3>The Legend of Zelda: Spirits Tracks (2009)</h3>
+                <p><strong>Synopsis : </strong> Link est un apprenti conducteur de train dans le royaume d’Hyrule. Lorsqu’il est invité au château pour recevoir son diplôme, il découvre que les Voies sacrées, des rails mystiques reliant les différentes régions du royaume, 
+                    disparaissent mystérieusement. Pire encore, le roi démon Mallard menace de se libérer grâce à un complot orchestré par son serviteur, le chancelier Cole. Lors d'une attaque, l'esprit de la princesse Zelda est séparé de son corps, mais elle devient 
+                    une alliée essentielle dans cette aventure. Sous sa forme spectrale, Zelda peut posséder des spectres, des armures vivantes, pour aider Link à explorer les donjons et à résoudre des énigmes. Ensemble, ils parcourent les régions d’Hyrule à bord de 
+                    la Locomotive des Dieux pour restaurer les Voies sacrées et empêcher le retour de Mallard. Armé de la Flûte de la Terre et de l’Épée de Légende, Link doit affronter des ennemis redoutables, restaurer l’équilibre du royaume, et réunir Zelda avec son corps.</p>
+                <p class="image-source">Source : <a href="https://www.nintendo.com/eu/media/images/03_teaser_module_1_square/games_3/nintendo_ds_2/TM_NDS_TheLegendOfZeldaSpiritTracks_image500w.png" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda16.jpg" alt="The Legend of Zelda: Skyward Sword">
+                <h3>The Legend of Zelda: Skyward Sword (2011)</h3>
+                <p><strong>Synopsis : </strong> Link vit sur l'île céleste de Célestbourg, un havre flottant au-dessus des nuages. Lors de la Cérémonie de l’Oiseau Écarlate, sa meilleure amie, Zelda, est emportée par une mystérieuse tornade vers le monde de la surface, un territoire oublié sous les nuages. 
+                    Guidé par Fay, l’esprit de l’Épée Divine, Link descend sur la surface pour sauver Zelda et découvrir son destin en tant que héros. Au cours de son aventure, Link explore des régions comme la forêt de Firone, le désert de Lanelle et le volcan d’Ordinn, où il résout des énigmes et affronte des créatures redoutables. 
+                    Il découvre que Ghirahim, un démon au service du roi démon Démise, cherche à ressusciter son maître en capturant Zelda, la réincarnation de la Déesse Hylia. Armé de l’Épée Divine, que ses exploits transforment en la Master Sword, Link doit affronter Ghirahim et Démise pour empêcher le mal de dominer et sceller la 
+                    réincarnation éternelle du mal à travers les âges.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FWii%2FThe-Legend-of-Zelda-Skyward-Sword-283531.html&psig=AOvVaw024-NjTz87dfXrLQy0AdOd&ust=1733882247865000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi0sK-OnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda17.jpg" alt="The Legend of Zelda: A Link Between Worlds">
+                <h3>The Legend of Zelda: A Link Between Worlds (2013)</h3>
+                <p><strong>Synopsis : </strong> Link, un jeune apprenti forgeron du royaume d’Hyrule, est entraîné dans une nouvelle aventure lorsque le sorcier maléfique Yuga apparaît. Ce dernier transforme des sages en peintures et menace de ressusciter Ganon pour plonger le monde dans les ténèbres. Après avoir été vaincu par Yuga, 
+                    Link reçoit l’aide de Ravio, un mystérieux marchand, et découvre un pouvoir unique : celui de se transformer en peinture murale grâce à un bracelet magique. Ce pouvoir permet à Link de voyager entre Hyrule et son monde parallèle, Lorule, un royaume dévasté dirigé par la princesse Hilda. Pour sauver les deux mondes, 
+                    Link doit récupérer les sept gemmes de la sagesse en explorant des donjons remplis d’énigmes et de dangers. Armé de l’Épée de Légende, et avec l’aide de la Triforce du Courage, Link affronte Yuga-Ganon dans un ultime combat pour restaurer l’équilibre entre Hyrule et Lorule, révélant un destin inattendu pour la princesse Hilda.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fau%2Fgames%2Fnintendo-3ds%2Fthe-legend-of-zelda-a-link-between-worlds%2F&psig=AOvVaw3sBNbUbb70ALNX-oJ9mato&ust=1733882268199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKip-7qOnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda18.jpg" alt="The Legend of Zelda: Hyrule Warriors">
+                <h3>The Legend of Zelda: Hyrule Warriors (2014)</h3>
+                <p><strong>Synopsis : </strong> Dans Hyrule Warriors, le royaume d’Hyrule est plongé dans le chaos lorsque la sorcière maléfique Cya, corrompue par sa soif de pouvoir, libère des hordes de monstres pour semer la destruction. Cya cherche à rassembler les fragments de la Triforce pour ouvrir des portails vers d’autres époques et ressusciter Ganon.
+                    Link, un jeune chevalier en formation, s’allie à Zelda, Impa, et d’autres héros emblématiques pour protéger le royaume. Guidé par les Lumières de l’Âme, l’équipe traverse les dimensions d’Ocarina of Time, Twilight Princess, et Skyward Sword, recrutant des alliés comme Midona, Darunia, et Fi. Ensemble, ils affrontent les forces de Cya et 
+                    ses alliés, comme Volga et Wizzro, tout en récupérant les fragments de la Triforce pour empêcher la résurrection de Ganon. Dans un ultime combat, les héros unissent leurs forces pour sceller Ganon et restaurer l’équilibre entre les mondes, protégeant le royaume d’Hyrule d’une destruction imminente.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNintendo-3DS-games%2FHyrule-Warriors-Legends-1025970.html&psig=AOvVaw1v88W76g2jXvUG8eGr_S6T&ust=1733882324234000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCl6NOOnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda19.jpg" alt="The Legend of Zelda: Tri Force Heroes">
+                <h3>The Legend of Zelda: Tri Force Heroes (2015)</h3>
+                <p><strong>Synopsis : </strong> Link se rend dans le royaume de Textilia, célèbre pour sa mode, où une terrible malédiction frappe la princesse Couturière. Transformée en une silhouette informe et condamnée à porter une tenue hideuse, elle perd toute sa grâce royale. Le roi fait alors appel à un héros légendaire pour briser le sort.
+                    Link, accompagné de deux autres héros (incarnés par des joueurs ou des doubles contrôlés par lui), doit affronter des épreuves périlleuses dans des régions variées pour récupérer des matériaux et coudre des tenues magiques conférant des pouvoirs spéciaux. Grâce à leur collaboration, les trois héros progressent dans des donjons 
+                    remplis de puzzles et de combats, afin de percer le mystère de la malédiction et affronter la sinistre Dame Maudite. En combinant leurs forces, les héros parviennent à sauver la princesse et à ramener la paix et la beauté au royaume de Textilia.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fau%2Fgames%2Fnintendo-3ds%2Fthe-legend-of-zelda-tri-force-heroes%2F&psig=AOvVaw0T5sQWuHX8Gx5wCvpl77JB&ust=1733882346716000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiq596OnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda20.jpg" alt="The Legend of Zelda: Breath of the Wild">
+                <h3>The Legend of Zelda: Breath of the Wild (2017)</h3>
+                <p><strong>Synopsis : </strong> Link se réveille d’un long sommeil de 100 ans dans le Sanctuaire de la Renaissance, amnésique et seul. Guidé par une mystérieuse voix, il découvre que le royaume d’Hyrule est en ruines, ravagé par le Fléau Ganon, une entité maléfique qui menace de détruire tout ce qui reste. La princesse Zelda, dernière espoir d’Hyrule, 
+                    retient Ganon prisonnier dans le château depuis un siècle, mais ses forces s’amenuisent. Pour sauver le royaume, Link doit retrouver ses souvenirs perdus, explorer un vaste monde ouvert rempli de mystères et d’énigmes, et libérer les Créatures Divines, d’immenses machines contrôlées par les esprits des anciens champions d’Hyrule. Il récupère 
+                    l’Épée de Légende, affronte des ennemis redoutables et résout des quêtes pour rassembler les forces nécessaires. Avec le soutien des habitants d’Hyrule, Link doit vaincre le Fléau Ganon, restaurer la paix et libérer la princesse Zelda de son fardeau éternel.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-gb%2FGames%2FNintendo-Switch-games%2FThe-Legend-of-Zelda-Breath-of-the-Wild-1173609.html&psig=AOvVaw3AyAWzECOuEyZk7IQdcsPt&ust=1733882365001000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDOquqOnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda21.jpg" alt="The Legend of Zelda: Cadence of Hyrule ">
+                <h3>The Legend of Zelda: Cadence of Hyrule (2019)</h3>
+                <p><strong>Synopsis : </strong> Cadence of Hyrule est un spin-off mêlant les mécaniques rythmiques de Crypt of the NecroDancer à l’univers emblématique de The Legend of Zelda. Dans ce jeu, Cadence, l’héroïne de Crypt of the NecroDancer, se retrouve mystérieusement transportée dans le royaume d’Hyrule. Là, elle s’allie à Link et Zelda pour affronter Octavio, 
+                    un musicien maléfique qui a ensorcelé le roi d’Hyrule et répandu le chaos. Le jeu combine exploration, énigmes et combats rythmés : chaque mouvement et action doivent suivre la musique pour maximiser les attaques et esquiver les ennemis. Les joueurs peuvent incarner Link, Zelda, ou Cadence, chacun disposant de capacités uniques, pour récupérer des objets 
+                    emblématiques comme le Boomerang ou l’Épée de Légende, et explorer un Hyrule généré de manière procédurale. Avec une bande-son dynamique et des mécaniques de jeu uniques, Cadence of Hyrule offre une aventure musicale où le rythme est la clé pour restaurer la paix dans le royaume.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fscreenrant.com%2Fcadence-of-hyrule-review%2F&psig=AOvVaw3_LQebeAtVw1Lv0PnpmblL&ust=1733882410811000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKio0ICPnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda22.jpg" alt="The Legend of Zelda: Hyrule Warriors: Age of Calamity">
+                <h3>The Legend of Zelda: Hyrule Warriors: Age of Calamity (2020)</h3>
+                <p><strong>Synopsis : </strong> Hyrule Warriors: Age of Calamity plonge les joueurs dans un passé lointain, cent ans avant les événements de Breath of the Wild. Le royaume d’Hyrule est menacé par le Fléau Ganon, une entité maléfique ressuscitée, qui déchaîne la guerre avec ses Gardiens et ses Bêtes Divines. Link, la princesse Zelda, Impa, et d'autres alliés emblématiques 
+                    s'unissent pour défendre leur terre. L’histoire commence avec un étrange phénomène : une mystérieuse potion de la sorcière permet à Mipha, Daruk, Revali et Urbosa, les champions des Créatures Divines, de revenir dans le temps, aidant Link et Zelda à lutter contre le Fléau. Ensemble, ils combattent des armées de Gardiens et des Soldats Bokoblin dans de vastes 
+                    champs de bataille à la manière d'un jeu de type musou. Dans une lutte désespérée pour sauver le royaume, les héros doivent affronter les forces de Ganon, libérer les Créatures Divines, et empêcher la destruction imminente d'Hyrule. Cependant, les événements qui se dérouleront mettront en lumière un lourd destin et les sacrifices nécessaires pour préserver l'avenir.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdigimama.nl%2Fhyrule-warriors-age-of-calamity%2F&psig=AOvVaw0JZ_zdOYzkoRlkFK38LLhj&ust=1733882452634000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCwsZOPnIoDFQAAAAAdAAAAABAJ" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda23.jpg" alt="The Legend of Zelda: Tears of the Kingdom">
+                <h3>The Legend of Zelda: Tears of the Kingdom (2023)</h3>
+                <p><strong>Synopsis : </strong> Link se lance dans une nouvelle aventure, cette fois pour sauver Hyrule d'une menace bien plus grande encore que le Fléau Ganon. Après un accident survenu dans les Îles Célestes, Link et Zelda découvrent un mystère ancien enfoui sous le royaume, lié à la mystérieuse entité Rauru et à la Triforce. Un mal ancien se réveille, menaçant de détruire non seulement Hyrule, 
+                    mais aussi le monde céleste. Au fil de son périple, Link utilise de nouveaux pouvoirs grâce à des artefacts anciens, notamment la main de la déesse qui lui permet de manipuler les éléments et l'environnement, tout en affrontant des ennemis tels que des Gardiens du ciel. Zelda, quant à elle, joue un rôle crucial dans la découverte de la vérité derrière le trône d'Hyrule et les secrets du 
+                    passé de Hyrule et de la Triforce. Link devra une nouvelle fois récupérer la Master Sword, résoudre des énigmes complexes et affronter Ganondorf, qui cherche à plonger Hyrule et le monde céleste dans une ère de ténèbres éternelles.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnichegamer.com%2Freviews%2Fthe-legend-of-zelda-tears-of-the-kingdom-review%2F&psig=AOvVaw30zn-Tt_2SI0D2j-_OOoKU&ust=1733885692854000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIC-npqbnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/zelda24.jpg" alt="The Legend of Zelda: Echoes of Wisdom">
+                <h3>The Legend of Zelda: Echoes of Wisdom (2024)</h3>
+                <p><strong>Synopsis : </strong> Dans The Legend of Zelda: Echoes of Wisdom, la Princesse Zelda prend les rênes de l'aventure. Alors qu'Hyrule est plongé dans le chaos par des failles mystérieuses qui enlèvent ses habitants, Zelda part en quête pour sauver son royaume. Accompagnée de Tri, une créature éthérée, elle découvre le Tri Rod, un bâton magique qui lui permet de créer des échos d'objets et d'ennemis 
+                    pour résoudre des énigmes complexes et combattre les créatures qui menacent Hyrule. Ce jeu propose un gameplay centré sur la manipulation de ces échos pour avancer dans des environnements divers et résister aux forces obscures. Zelda devra surmonter de nombreux défis pour restaurer la paix, tandis qu'un mystère profond se cache derrière les failles. Les puzzles et la dynamique de l'exploration rappellent 
+                    les fondements de la série, tout en apportant des éléments de jeu innovants.</p>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fen-ca%2Fstore%2Fproducts%2Fthe-legend-of-zelda-echoes-of-wisdom-switch%2F&psig=AOvVaw2bYOSkB3oe7nWNLRoMh_Qn&ust=1733885733791000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIis9a2bnIoDFQAAAAAdAAAAABAE" target="">The Legend of Zelda</a></p>
+            </article>
+        </div>
+    </section>
+
+    <section id="personnages">
+        <h2>Personnages Emblématiques</h2>
+        <div class="character-grid">
+            <article>
+                <img src="images/link.jpg" alt="Link">
+                <h3>Link</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> INFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda (1986)</li>
+                    <li><strong>Description : </strong> Héros de la série, Link est un jeune homme courageux et déterminé qui est souvent l'élu
+                        chargé de sauver Hyrule et de protéger la Triforce. Son courage et sa volonté de lutter pour la justice sont 
+                        sans égales, et il endosse à chaque fois le rôle de celui qui va affronter le mal pour rétablir l'équilibre dans 
+                        le monde. Il est généralement dépourvu de dialogues pour permettre au joueur de s'identifier à lui.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.pinterest.com/pin/285063851389171056/" target="_blank">Link</a></p>
+            </article>
+            <article>
+                <img src="images/princessZelda.jpg" alt="Zelda">
+                <h3>Zelda</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ENFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda (1986)</li>
+                    <li><strong>Description : </strong> Princesse de Hyrule, Zelda est la figure royale, détentrice de la Triforce de la Sagesse. 
+                        Elle joue souvent un rôle clé en tant que guide et soutien à Link, parfois même prenant une forme active, comme dans 
+                        Tears of the Kingdom où elle se distingue comme une alliée puissante. Elle incarne la sagesse et est souvent l'inspiration du héro.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://loveinterest.fandom.com/wiki/Princess_Zelda" target="">Zelda</a></p>
+            </article>
+            <article>
+                <img src="images/Ganondorf.jpg" alt="Ganondorf / Ganon">
+                <h3>Ganondorf / Ganon</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ENTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Le principal antagoniste de la série, Ganondorf est le chef des Gerudos et le détenteur de la Triforce du Pouvoir. 
+                        Son but est de dominer Hyrule et de s'emparer de la Triforce pour imposer sa vision du monde. Dans certains jeux, il prend la forme monstrueuse de Ganon.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://pure-evil-villains.fandom.com/wiki/Ganondorf_(The_Hero_of_Time_Script_Fic)" target="">Ganondorf</a></p>
+            </article>
+            <article>
+                <img src="images/navi.jpg" alt="Navi">
+                <h3>Navi</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ENFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Navi est la fée guide de Link dans Ocarina of Time. 
+                        Elle sert de mentor, offrant des conseils et des informations pratiques pendant l’aventure. 
+                        Bien qu’elle soit un personnage qui parfois nous donne envie de pêter les plombs à cause de ses rappels fréquents (très), elle 
+                        est essentielle pour l'aventure de Link.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://zelda.fandom.com/wiki/Navi" target="">Navi</a></p>
+            </article>
+            <article>
+                <img src="images/impa.jpg" alt="Impa">
+                <h3>Impa</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ISTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Impa est la protectrice fidèle de la famille royale et l'alliée principale de Zelda. 
+                        Dans Ocarina of Time, elle est sage et forte, agissant comme un mentor pour Link. Elle est également un personnage 
+                        clé dans d'autres jeux comme Skyward Sword.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://hero.fandom.com/wiki/Impa_(Ocarina_of_Time)" target="">Impa</a></p>
+            </article>
+            <article>
+                <img src="images/midna.png" alt="Midna">
+                <h3>Midna</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ENTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Twilight Princess (2006)</li>
+                    <li><strong>Description : </strong> Midna est la princesse du Royaume du Crépuscule et l'un des personnages les plus complexes et 
+                        populaires de la série. Elle aide Link dans Twilight Princess avec ses pouvoirs magiques, tout en étant un allié à la 
+                        fois mystérieux et charismatique.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://zelda.fandom.com/wiki/Midna" target="">Midna</a></p>
+            </article>
+            <article>
+                <img src="images/tingle.jpg" alt="Tingle">
+                <h3>Tingle</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ISFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Majora’s Mask (2000)</li>
+                    <li><strong>Description : </strong> Tingle est un personnage excentrique qui se prend pour un "homme-fée" et offre ses services de cartographie. 
+                        Il est souvent considéré comme un personnage comique, mais sa présence décalée est appréciée dans plusieurs jeux comme Wind Waker et 
+                        Four Swords Adventures.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FTingle&psig=AOvVaw2O2Yat481hg1teOCFmF10n&ust=1733878601510000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKC9keWAnIoDFQAAAAAdAAAAABAE" target="">Tingle</a></p>
+            </article>
+            <article>
+                <img src="images/skullkid.jpg" alt="Skull kid">
+                <h3>Skull kid</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> INFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Skull Kid est un personnage mystérieux qui, dans Majora's Mask, porte le masque maléfique de Majora et cherche à détruire le monde de Termina. À la base enfantin et naïf, 
+                        il devient de plus en plus imprévisible sous l'influence du masque. Son rôle central dans Majora's Mask en fait un antagoniste tragique, manipulé par ses émotions et les pouvoirs du masque.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FSkull_Kid&psig=AOvVaw2sWrxkZUK8dCA8CkO88Oy-&ust=1733878667260000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDE04SBnIoDFQAAAAAdAAAAABAE" target="">Skull kid</a></p>
+            </article>
+            <article>
+                <img src="images/darklink.jpg" alt="Dark Link">
+                <h3>Dark Link</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> INTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: The Adventure of Link (1987)</li>
+                    <li><strong>Description : </strong> Dark Link est une version maléfique de Link, souvent utilisée comme un boss difficile dans plusieurs jeux. 
+                        Son but est de tester les compétences de Link et de lui rappeler l'ombre du héros qu'il est devenu.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.deviantart.com/zerjer97/art/Dark-Link-Artwork-From-Ocarina-Of-Time-352862344" target="">Dark Link</a></p>
+            </article>
+            <article>
+                <img src="images/Happymask.jpg" alt="Le Marchand De Masques">
+                <h3>Le Marchand de Masques</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ENTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Le Marchand de Masques est un personnage mystérieux rencontré dans Ocarina of Time en tant que vendeur de masques. 
+                        Bien qu'il ait un rôle mineur dans ce jeu, il devient central dans Majora's Mask, où il aide Link en vendant des masques magiques essentiels à la 
+                        progression de l'aventure. Son caractère énigmatique et son lien avec le masque de Majora ajoutent une dimension inquiétante à l'histoire.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FHappy_Mask_Salesman&psig=AOvVaw2jQEbibCXMh7C2yWElyq5Y&ust=1733878775016000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC3xbmBnIoDFQAAAAAdAAAAABAJ" target="">Le Marchand de Masques</a></p>
+            </article>
+            <article>
+                <img src="images/rauru.jpg" alt="Rauru">
+                <h3>Rauru</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> INFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Sage de la Lumière dans Ocarina of Time, Rauru est l'un des sept sages qui aident Link à restaurer la paix à travers Hyrule. 
+                        En tant que sage, il joue un rôle important dans la protection du Temple du Temps.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FRauru&psig=AOvVaw3fkNSzmevZvp4lVCc9Tkdf&ust=1733878840558000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCngNeBnIoDFQAAAAAdAAAAABAE" target="">Rauru</a></p>
+            </article>
+            <article>
+                <img src="images/Ghirahim.jpg" alt="Ghirahim">
+                <h3>Ghirahim</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ENFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Skyward Sword (2011)</li>
+                    <li><strong>Description : </strong> Ghirahim est l'antagoniste principal de Skyward Sword, un seigneur démoniaque possédant un charisme maléfique et une grande habilité au combat. 
+                        Il est au service de Demise, l'entité maléfique qui veut détruire Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGhirahim&psig=AOvVaw0mGONoaOmq847OzdLbgE-f&ust=1733878885764000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj_uOyBnIoDFQAAAAAdAAAAABAE" target="">Ghirahim</a></p>
+            </article>
+            <article>
+                <img src="images/ruto.jpg" alt="Ruto">
+                <h3>Ruto</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ESTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Ruto est la princesse des Zoras, rencontrée par Link dans le Temple de l'Eau. Initialement capricieuse et possessive, elle se révèle courageuse et 
+                        déterminée. En tant que Sage de l'Eau, elle joue un rôle clé dans la lutte contre Ganondorf, offrant son aide à Link. Son caractère énergique et son dévouement à son peuple en 
+                        font un personnage marquant dans l'histoire de Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FPrincess_Ruto&psig=AOvVaw35uxPc1uGGPXdMDxI85MSS&ust=1733878916337000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjfoPuBnIoDFQAAAAAdAAAAABAE" target="">Ruto</a></p>
+            </article>
+            <article>
+                <img src="images/epona.jpg" alt="Epona">
+                <h3>Epona</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> (J'en sais rien, c'est un cheval.)</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Epona est la fidèle jument de Link, introduite dans Ocarina of Time. Elle permet à Link de parcourir Hyrule rapidement et devient un symbole fort de la saga. 
+                        Epona réapparaît dans plusieurs jeux, dont Majora's Mask, Twilight Princess et Breath of the Wild, où elle peut être retrouvée grâce à des quêtes spéciales.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FEpona&psig=AOvVaw3q_wJWv_CUpxW1jf5OhDFg&ust=1733878959576000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMi6yY-CnIoDFQAAAAAdAAAAABAE" target="">Epona</a></p>
+            </article>
+            <article>
+                <img src="images/fi.jpg" alt="Fi">
+                <h3>Fi</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> INTJ</li>
+                    <li><strong>Première Apparition :</strong> Skyward Sword (2011)</li>
+                    <li><strong>Description : </strong> Fi est l'esprit de l’Épée de Légende, qui guide Link dans Skyward Sword. Très logique et analytique, 
+                        Fi ne laisse pas place aux émotions, ce qui la rend à la fois utile et distante. Elle aide Link à traverser les défis avec 
+                        une approche très rationnelle.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FEpona&psig=AOvVaw3q_wJWv_CUpxW1jf5OhDFg&ust=1733878959576000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMi6yY-CnIoDFQAAAAAdAAAAABAE" target="">Fi</a></p>
+            </article>
+            <article>
+                <img src="images/tetra.jpg" alt="Tetra">
+                <h3>Tetra</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ESTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: The Wind Waker (2002)</li>
+                    <li><strong>Description : </strong> Tetra est la pirate audacieuse qui, plus tard, se révèle être la véritable princesse Zelda. Son rôle de guide 
+                        et de leader pour Link dans The Wind Waker est essentiel pour la quête pour sauver Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FTetra&psig=AOvVaw33MtEz5cMXFPkRymRurah7&ust=1733878999948000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi7-KKCnIoDFQAAAAAdAAAAABAE" target="">Tetra</a></p>
+            </article>
+            <article>
+                <img src="images/mipha.jpg" alt="Mipha">
+                <h3>Mipha</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ISFJ</li>
+                    <li><strong>Première Apparition :</strong> he Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Mipha est la princesse Zora et une des champions qui ont combattu aux côtés de Link il y a 100 ans. Elle porte l’armure de la Zora et maîtrise la puissance de l'eau. 
+                        Elle est particulièrement connue pour sa douceur et sa compassion, en particulier pour Link, avec qui elle avait une relation proche. Sa pouvoir spécial, la guérison de Mipha, permet à Link de récupérer 
+                        une grande quantité de santé, ce qui est crucial pour affronter les épreuves. Elle incarne la sagesse, tout en portant une grande douleur due à l'échec passé de sa mission.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpure-good-heroes.fandom.com%2Fwiki%2FMipha&psig=AOvVaw2aHGDoZuvkss4GVc7ezEt8&ust=1733879045950000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODOlbmCnIoDFQAAAAAdAAAAABAE" target="">Mipha</a></p>
+            </article>
+            <article>
+                <img src="images/daruk.jpg" alt="Daruk">
+                <h3>Daruk</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ESTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Daruk est le Goron Champion et maître du feu. En tant que chef de la tribu Goron, il est extrêmement fort et courageux, 
+                        mais également doté d'un sens de l'humour et d'une nature chaleureuse. Son pouvoir spécial, la protection de Daruk, crée un bouclier de roche qui protège 
+                        Link contre des attaques ennemies. Daruk est un personnage dynamique et héroïque, portant son rôle de défenseur de Hyrule avec fierté.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGallery%3ADaruk&psig=AOvVaw26JluFJUNkOxDwVbCL9Pgh&ust=1733879073710000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCiy8aCnIoDFQAAAAAdAAAAABAE" target="">Daruk</a></p>
+            </article>
+            <article>
+                <img src="images/urbosa.png" alt="Urbosa">
+                <h3>Urbosa</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ENTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Urbosa est la championne Gerudo et maîtresse de la foudre. En tant que chef des Gerudos, elle incarne la sagesse et la bravoure. Son pouvoir spécial, 
+                        la rage d'Urbosa, permet de libérer une puissante décharge de foudre pour frapper les ennemis proches. Urbosa est un personnage noble et fort, prêt à tout pour protéger 
+                        son peuple et son royaume.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGallery%3AUrbosa&psig=AOvVaw32Pq02jFJDh5Host7iC2_j&ust=1733879107859000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjLydaCnIoDFQAAAAAdAAAAABAE" target="">Urbosa</a></p>
+            </article>
+            <article>
+                <img src="images/Revali.png" alt="Revali">
+                <h3>Revali</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ESTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Revali est le champion Rito et l'archer d’élite d’Hyrule. Fier et extrêmement compétent, il est un expert du vol et de l’archerie, doté 
+                        d’une grande confiance en ses capacités. Son pouvoir spécial, l'ascension de Revali, permet à Link de voler à travers les airs pendant un certain temps. Revali est 
+                        souvent perçu comme arrogant, mais il nourrit une grande dévotion envers la protection de Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGallery%3ARevali&psig=AOvVaw0QvnHY1CfTvW94UCfcs4L9&ust=1733879135064000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDQhuSCnIoDFQAAAAAdAAAAABAE" target="">Revali</a></p>
+            </article>
+            <article>
+                <img src="images/twinrova.rpg.webp" alt="Twinrova">
+                <h3>Twinrova</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ENTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Twinrova sont deux sorcières, Koume et Komega, qui servent d'antagonistes secondaires dans Ocarina of Time. 
+                        Elles sont les mères de Ganondorf et ont pour but de ressusciter leur fils pour qu'il prenne le contrôle de Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/imgres?q=loz%20twinrovapng&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fzelda_gamepedia_en%2Fimages%2F7%2F74%2FOoT_Twinrova_Artwork_2.png%2Frevision%2Flatest%3Fcb%3D20130313015307&imgrefurl=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FTwinrova&docid=TQI4LbyL-p4yOM&tbnid=IJZIJ5dF3DAixM&vet=12ahUKEwj8voeugZyKAxViODQIHV3SAGEQM3oECBYQAA..i&w=2732&h=3775&hcb=2&ved=2ahUKEwj8voeugZyKAxViODQIHV3SAGEQM3oECBYQAA" target="">Twinrova</a></p>
+            </article>
+            <article>
+                <img src="images/sheik.png" alt="Sheik">
+                <h3>Sheik</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin (en apparence) / Féminin (vraie identité : Zelda)</li>
+                    <li><strong>MBTI :</strong> INFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Sheik est un mystérieux personnage qui aide Link dans sa quête pour sauver Hyrule. Dévoilé comme étant en réalité Zelda, 
+                        Sheik agit sous une autre identité pour échapper aux dangers. En tant que membre de la tribu Sheikah, il guide Link à travers ses épreuves, 
+                        lui enseignant des chansons magiques et l’aidant à maîtriser des pouvoirs qui lui seront essentiels pour vaincre Ganondorf.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGoddess%2527s_Harp&psig=AOvVaw3lpYIhdnvxOIt2rimyP3Rp&ust=1733879205415000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiVw4aDnIoDFQAAAAAdAAAAABAE" target="">Sheik</a></p>
+            </article>
+            <article>
+                <img src="images/sidon.png" alt="Sidon">
+                <h3>Sidon</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ENFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Sidon est le prince des Zoras, rencontré par Link dans Breath of the Wild. Charismatique et courageux, il devient un allié 
+                        précieux dans la quête pour vaincre Calamity Ganon. Sidon aide Link à traverser les défis liés au Divin Beast Vah Ruta et à restaurer la gloire de son peuple. 
+                        Avec son tempérament jovial et sa grande loyauté, il est l'un des personnages les plus appréciés du jeu.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSidon_%2528The_Legend_of_Zelda%2529&psig=AOvVaw1SO3V-TUWgNVTYMgk2DlTM&ust=1733879247941000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiZ_piDnIoDFQAAAAAdAAAAABAE" target="">Sidon</a></p>
+            </article>
+            <article>
+                <img src="images/malon.jpg" alt="Malon">
+                <h3>Malon</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ISFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Malon est une jeune fermière vivant à Lon Lon Ranch dans Ocarina of Time. Elle est connue pour son amour des chevaux et sa gentillesse. 
+                        Dans le jeu, elle aide Link en lui enseignant la chanson de Epona, ce qui permet à Link de chevaucher la jument fidèle Epona. Bien que son rôle soit secondaire, 
+                        elle est un personnage clé dans la quête de Link, offrant un soutien moral et une aide pratique pour les déplacements dans Hyrule.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FMalon&psig=AOvVaw24FDlOSu-XEDa9W3jRnH5k&ust=1733879269240000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjWtKODnIoDFQAAAAAdAAAAABAE" target="">Malon</a></p>
+            </article>
+            <article>
+                <img src="images/maitrekohga.jpg" alt="Le maître Kohga">
+                <h3>Le maître Kohga</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ESTP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Breath of the Wild (2017)</li>
+                    <li><strong>Description : </strong> Maître Kohga est le chef des Yigas, un groupe de rebelles qui servent Ganon. Dans Breath of the Wild, 
+                        il apparaît comme un antagoniste principal dans le Sanctuaire de la Montagne d'Hebra, où il mène un combat contre Link. En tant que chef des Yigas, 
+                        Kohga est un personnage comique et imposant, souvent vu roulant sur une grande boule métallique et utilisant la magie pour combattre. Malgré son apparence burlesque, 
+                        il demeure une menace sérieuse pour Link dans le jeu.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zeldadungeon.net%2Fwiki%2FMaster_Kohga&psig=AOvVaw3OSj2S7FylJR34I6f7vxLo&ust=1733879340329000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPic88WDnIoDFQAAAAAdAAAAABAE" target="">Le maître Kohga</a></p>
+            </article>
+            <article>
+                <img src="images/grandefee.jpg" alt="La Grande Fée">
+                <h3>La Grande Fée</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> INFJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> La Grande Fée apparaît dans plusieurs jeux de la série Zelda, 
+                        mais elle fait sa première apparition importante dans Ocarina of Time. Elle est une figure 
+                        mystique et puissante qui accorde des pouvoirs spéciaux à Link lorsqu'il termine des quêtes dans 
+                        ses Fontaines de la Grande Fée. Ses pouvoirs permettent à Link de renforcer ses capacités et d'obtenir 
+                        de nouvelles compétences.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FGreat_Fairy&psig=AOvVaw0lQGIX-1fuagOQU4m87sYP&ust=1733879383122000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi7vtyDnIoDFQAAAAAdAAAAABAE" target="">La Grande Fée<a></p>
+            </article>
+            <article>
+                <img src="images/saria.jpg" alt="Saria">
+                <h3>Saria</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> INFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Saria est l'une des Sept Sages et l'amie d'enfance de Link, vivant dans la Forêt Kokiri. 
+                        Elle est un personnage clé dans Ocarina of Time, où elle joue un rôle crucial en aidant Link à activer les pouvoirs des Sages. 
+                        Saria possède un lien particulier avec la Forêt et la Nature, ce qui se reflète dans ses pouvoirs et sa connexion spirituelle avec Link. 
+                        Elle est également la première Sage que Link rencontre.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FSaria&psig=AOvVaw2KNtugrtRo-D8G3S8FVM7p&ust=1733879442591000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjshPaDnIoDFQAAAAAdAAAAABAE" target="">Saria</a></p>
+            </article>
+            <article>
+                <img src="images/ravio.jpg" alt="Ravio">
+                <h3>Ravio</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> ISFP</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: A Link Between Worlds (2013)</li>
+                    <li><strong>Description : </strong> Ravio, un marchand excentrique venu de Lorule, s'installe chez Link pour vendre des objets essentiels à son aventure. 
+                        Sous son apparence mystérieuse, il est en réalité le double dimensionnel de Link, ayant fui son devoir héroïque. Ravio incarne un héros réticent, 
+                        apportant un soutien clé malgré ses propres peurs.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FRavio&psig=AOvVaw2oGCMS-QlOxe0iAUt-ItEm&ust=1733879478816000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCkpYeEnIoDFQAAAAAdAAAAABAE" target="">Ravio</a></p>
+            </article>
+            <article>
+                <img src="images/KaeporaGaebora.jpg" alt="Kaepora Gaebora">
+                <h3>Kaepora Gaebora</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Masculin</li>
+                    <li><strong>MBTI :</strong> INTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Kaepora Gaebora est un hibou sage qui sert de guide à Link en lui fournissant des informations essentielles pour avancer 
+                        dans sa quête. Bien que ses conseils soient précieux, il a tendance à parler de manière détaillée et répétitive, parfois agacée par son rôle. Avec 
+                        sa voix grave et son apparence imposante, Kaepora incarne la sagesse et l'assistance, mais parfois de manière un peu envahissante.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzelda.fandom.com%2Fwiki%2FKaepora_Gaebora&psig=AOvVaw3142Czyh6ClIyonpGD75BR&ust=1733880304671000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjuh5KHnIoDFQAAAAAdAAAAABAE" target="">Kaepora Gaebora</a></p>
+            </article>
+            <article>
+                <img src="images/nabooru.jpg" alt="Nabooru">
+                <h3>Nabooru</h3>
+                <ul>
+                    <li><strong>Genre :</strong> Féminin</li>
+                    <li><strong>MBTI :</strong> ESTJ</li>
+                    <li><strong>Première Apparition :</strong> The Legend of Zelda: Ocarina of Time (1998)</li>
+                    <li><strong>Description : </strong> Nabooru est la guerrière leader des Gerudo. Forte, déterminée et respectée, elle incarne le sens de l'honneur et de la justice. 
+                        Bien qu'elle soit souvent perçue comme une figure autoritaire, elle lutte pour la liberté et le bien-être de son peuple. Sa loyauté envers ses idéaux et 
+                        sa bravoure en font une alliée précieuse pour Link.</li>
+                </ul>
+                <p class="image-source">Source : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zeldadungeon.net%2Fwiki%2FNabooru&psig=AOvVaw2D56bfvM5EPrCXCtCN3Gv5&ust=1733880509671000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNi42_KHnIoDFQAAAAAdAAAAABAE" target="">Nabooru</a></p>
+            </article>
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Visionnez ces vidéos qui vous expliqueront tout le Lore de The Legend of Zelda!!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2OnPkSEbKMc?si=VqJRW1MMTzlfUCDf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hvvcCN2N0EI?si=lBV196wSSvlkKglq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="galerie">
+        <h1>Les objets les plus connus de la saga</h1>
+        <div class="galerie-conteneur">
+            <div class="galerie-objet">
+                <img src="images/triforce.jpg" alt="Triforce">
+                <p class="legend">La Triforce : Symbole ultime du pouvoir, de la sagesse et du courage.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/mastersword.jpg" alt="Master Sword">
+                <p class="legend">L'Épée de Légende : Arme sacrée capable de repousser les forces du mal.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/hylianshield.jpg" alt="Hylian Shield">
+                <p class="legend">Le Bouclier Hylien : Protection emblématique de Link dans ses aventures.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/ocarina.jpg" alt="Ocarina">
+                <p class="legend">L'Ocarina du Temps : Un instrument magique contrôlant le flux temporel.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/masquemajora.jpg" alt="Masque Majora">
+                <p class="legend">Le Masque de Majora : Relique maudite dotée de pouvoirs inquiétants.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/rubis.jpg" alt="Rubis">
+                <p class="legend">Les Rubis : Monnaie utilisée dans tout Hyrule pour les échanges et achats.</p>
+            </div>
+            <div class="galerie-objet">
+                <img src="images/tablettesheikah.jpg" alt="Tablette Sheikah">
+                <p class="legend">La Tablette Sheikah : Outil technologique ancien aux multiples fonctions.</p>
+            </div>
+        </div>
+    </section>
+    
+    <p class="font-source">Police Utilisée : <a href="https://blogfonts.com/hylia-serif-beta.font" target="">Hylia Serif Beta</a></p>
+
+    <footer id="contact">
+        <p>Collège de Maisonneuve, Département des techniques d'intégration multimédia, Automne 2024</p>
+        <div class="social-media">
+        <a href="https://www.facebook.com" target="">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com" target="">
+            <img src="images/insta.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.twitter.com" target="">
+            <img src="images/x.png" alt="Twitter" class="social-icon">
+        </a>
+    </div>
+        <p><a href="#">Avis de confidentialité | Privacy Notice</a></p>
+    </footer>
+</body>
+</html>
